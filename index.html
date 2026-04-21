@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>CopyText PRO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="bg-orb orb-1"></div>
+      <div class="bg-orb orb-2"></div>
+      <div class="grid-overlay"></div>
+
+      <main class="copy-app">
+        <div class="copy-card">
+          <div class="copy-badge">Mini Tool</div>
+
+          <h1 class="copy-title">Copy Text</h1>
+          <p class="copy-subtitle">
+            Write any text, copy it instantly, and keep the experience clean,
+            modern, and premium.
+          </p>
+
+          <div class="copy-input-wrapper">
+            <label for="copyInput" class="copy-label">Your text</label>
+            <textarea
+              id="copyInput"
+              class="copy-input"
+              placeholder="Type something here..."
+            ></textarea>
+
+            <div class="copy-meta">
+              <span class="char-counter">O characters</span>
+              <span class="helper-text">Ready to copy</span>
+            </div>
+          </div>
+
+          <div class="copy-actions">
+            <button class="btn btn-primary" id="copyBtn">Copy Text</button>
+            <button class="btn btn-secondary" id="clearBtn">Clear</button>
+          </div>
+        </div>
+      </main>
+
+      <div class="toast" id="toast">
+        <span class="toast-icon">✓</span>
+        <span class="toast-text">Copied to clipboard</span>
+        <div class="toast-progress"></div>
+      </div>
+    </div>
+  </body>
+</html>
