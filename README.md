@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-👉 [ssdasd](https://johnyisbackk.github.io/js-clipboard-copy-tool/)
+👉 (https://johnyisbackk.github.io/js-clipboard-copy-tool/)
 
 ---
 
