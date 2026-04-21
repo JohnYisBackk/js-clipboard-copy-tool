@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-👉 
+👉 [ssdasd](https://johnyisbackk.github.io/js-clipboard-copy-tool/)
 
 ---
 
@@ -67,15 +67,6 @@ Focused on clean design, smooth interactions, and real-world usability.
 * Light / Dark theme toggle
 * Paste from clipboard
 
----
 
-## 📸 Preview
 
-*Add screenshot or short demo GIF here*
-
----
-
-## 📜 License
-
-Free to use for learning and personal projects.
 
